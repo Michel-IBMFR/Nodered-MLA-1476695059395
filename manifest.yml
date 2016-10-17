@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Nodered-MLA
+  host: Nodered-MLA
+  disk_quota: 1024M
+  services:
+  - Nodered-MLA-cloudantNoSQLDB
